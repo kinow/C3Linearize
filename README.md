@@ -31,6 +31,6 @@ This prints out:
 
 `linearize` operates on a mapping that represents the dependency graph; keys map to a sequence of their dependencies. It will then return a dictionary mapping each and every object to its linearization.
 
-One can either contruct these graphs by hand, or use the `build_graph` function which will construct one of these mappings from a given object and a function which returns the bases of any given object.
+One can either construct these graphs by hand, or use the `build_graph` function which will construct one of these mappings from a given object and a function which returns the bases of any given object.
 
 The docstrings offer a little more information on this process, and see http://www.python.org/download/releases/2.3/mro/ for more info on the algorithm itself.

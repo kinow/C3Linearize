@@ -1,6 +1,6 @@
 """A module to perform C3 linearization on arbitrary objects.
 
-The primary usage of this module is to build a depency graph using
+The primary usage of this module is to build a dependency graph using
 `build_graph`, which returns a dict mapping objects to a list of their
 dependencies. Then, to linearize the graph with the `linearize` function.
 
