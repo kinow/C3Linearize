@@ -176,7 +176,7 @@ def test_class_mro():
     def assert_class_mro(cls):
         graph = class_graph(cls)
         linear = linearize(graph)
-        for cls, mro in linear.iteritems():
+        for cls, mro in linear.items():
             assertEqual(mro, list(cls.__mro__))
     
     class B(O): pass
